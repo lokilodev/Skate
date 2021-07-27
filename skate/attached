@@ -1,0 +1,47 @@
+[ +108 ms] executing: uname -m
+[  +53 ms] Exit code 0 from: uname -m
+[        ] x86_64
+[  +10 ms] executing: [/home/lokilo/snap/flutter/common/flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[   +4 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] 02c026b03cd31dd3f867e5faeb7e104cce174c5f
+[        ] executing: [/home/lokilo/snap/flutter/common/flutter/] git tag --points-at 02c026b03cd31dd3f867e5faeb7e104cce174c5f
+[  +16 ms] Exit code 0 from: git tag --points-at 02c026b03cd31dd3f867e5faeb7e104cce174c5f
+[        ] 2.2.1
+[  +10 ms] executing: [/home/lokilo/snap/flutter/common/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[   +4 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/stable
+[        ] executing: [/home/lokilo/snap/flutter/common/flutter/] git ls-remote --get-url origin
+[   +3 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[ +122 ms] executing: [/home/lokilo/snap/flutter/common/flutter/] git rev-parse --abbrev-ref HEAD
+[   +4 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] stable
+[  +85 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +98 ms] executing: /home/lokilo/Android/Sdk/platform-tools/adb devices -l
+[  +50 ms] List of devices attached
+           47337948               device usb:6-1 product:1951 model:vivo_1918 device:1951 transport_id:3
+[  +10 ms] /home/lokilo/Android/Sdk/platform-tools/adb -s 47337948 shell getprop
+[ +140 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +60 ms] "flutter run" took 388ms.
+[ +234 ms] ensureAnalyticsSent: 227ms
+[   +2 ms] Running shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 1
